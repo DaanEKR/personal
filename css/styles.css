@@ -9,13 +9,13 @@
     height: 60px;
 }
 
-.nav-list {
+.menu {
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
 
-.nav-list__item {
+.menu__item {
     color: #4d4d4d;
     font-weight: bold;
     margin-left: 20px;
@@ -66,7 +66,7 @@
 .introduction__item{
     width: 40%;
 }
-.introduction__item-list{
+.introduction__list{
     margin-left: -15px;
     margin-top: 10px;
 }
@@ -79,7 +79,7 @@
     margin-left: 5%;
     margin-top: 30px;
 }
-.slideshow__items-list{
+.slideshow__list{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -128,7 +128,7 @@
     width: 60%;
 }
 
-.form__right-checkbox{
+.form__checkbox{
     width: 20px;
     height: 20px;
     margin-top: 30px;
@@ -136,18 +136,18 @@
     background-color: #FFFFFF;
     border: 2px solid black;
 }
-.form__right-text{
+.form__text{
     display: flex;
     margin-right: 60%;
     margin-top: -19px
 
 }
-.form__right-text--underline{
+.form__text--underline{
     text-decoration: underline;
     margin-left: 4px;
     margin-right: 4px;
 }
-.form__right-button{
+.form__button{
     display: flex;
     margin-top: 37px;
     background-color: #464646;
