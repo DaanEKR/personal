@@ -23,6 +23,10 @@
     font-weight: bold;
     margin-left: 20px;
 }
+.link{
+    text-decoration: none;
+    color: #000000
+}
 .gallery{
     display: flex;
     flex-direction: row;
